@@ -12,13 +12,13 @@ html, body{
  }
 
  h2 {
-   font-size:28px;
+   font-size:32px;
    font-weight: normal;
    margin-bottom: 5px;
  }
  p {
    font-size:16px;
-   line-height: 19px;
+   line-height: 24px;
    font-weight: 100;
  }
  /* GRID */
@@ -142,9 +142,7 @@ header .hero {
    margin:10px 0 40px;
  }
 header .hero img{
-        height:auto;
-        width:100%;
-    padding-top: 20px;
+        b
     }
 
  /* BUTTONS */
@@ -193,9 +191,20 @@ header .hero img{
    text-align: center;
    padding:1em 0;
  }
- .pricing h2, .pricing p {
-   color:#c1dcf9;
+
+ .pricing h2 {
  }
+
+.pricing p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color:#655d69;
+  font-weight: 400;
+  padding:0 6em;
+  text-align: left;
+
+ }
+
+
  .pricing ul {
    margin:0 auto;
    padding:2em 0;
@@ -749,8 +758,6 @@ border-radius: 2px;
      display:none;
    }
 
-/* SETTINGS */
-.settings-btn {
   display: inline;
   margin-top:0px!important;
 }
@@ -764,3 +771,17 @@ border-radius: 2px;
   font-size:12px;
   float:none;
 }
+
+/* SURVEY */
+
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .column.half { width: 50%; }
+  .column.flow-opposite { float: right; }  
+}
+

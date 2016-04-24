@@ -3,7 +3,10 @@ body {
   margin: 0;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color:#5c5d69;
-  background-color: #c1dcf9;
+
+
+background-color: #c0dbfa;
+
 }
 
 a {
@@ -37,6 +40,14 @@ width: 100%;
    font-weight: 100;
    margin:10px 0 40px;
  }
+
+
+.Survey img {
+ background-color: #c1dcf9;
+  height:auto;
+  width:40%;
+  padding:1em 0;
+    }
 
 /* header */
 
