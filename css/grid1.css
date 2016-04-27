@@ -21,6 +21,8 @@ html, body{
    line-height: 24px;
    font-weight: 100;
  }
+
+
  /* GRID */
  .container {
    margin-right: auto;
@@ -206,12 +208,17 @@ header .hero img{
 
 
  .pricing ul {
-   margin:0 auto;
-   padding:2em 0;
+   padding:0 2em;
+   text-align: left;
+
  }
  .pricing ul li {
-   list-style-type: none;
+   text-align: left;
+   padding-left: -1em;
+   margin-left: 2em;
  }
+
+
  .box {
    padding:0 15px 15px;
    background: #FFFFFF;
