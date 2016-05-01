@@ -44,7 +44,7 @@ html, body{
    float:left;
    position: relative;
    min-height: 1px;
-   margin:0 2% 20px;
+   margin:20px 2% 20px;
  }
 
 /* Extra-large screen */
@@ -159,6 +159,11 @@ header .hero img{
    box-shadow: 0px 2px 0px 0px #ce3f21;
  }
 
+a.btn:hover {
+background-color: #CE3F21;
+border: 2px solid #CE3F21;
+}
+
 .graytext {
    color:#2f464c;
    font-weight: 700;
@@ -175,17 +180,46 @@ header .hero img{
    display: block;
    position: relative;
  }
+
  .benefits ul {
    margin: 0 auto;
-   padding: 4em 0;
+   padding: 2em 0;
  }
  .benefits ul li {
    list-style-type: none;
    display: inline-block;
 }
+
+
+.benefits2 {
+   text-align: center;
+   display: block;
+   position: relative;
+   background-color: #f2f4f6;
+ }
+
+.benefits2 ul li {
+   list-style-type: none;
+   display: inline-block;
+}
+
 .benefits h2 {
    color:#0e8697;
+   background-color: #f2f4f6;
+   padding: 20px 0;
+   
  }
+
+h2.features {
+  margin-top: -5px;
+  padding-top: 34px;
+}
+
+section.benefits2 {
+ padding-bottom: 20px;
+ background: #f2f4f6; 
+}
+
 
  /* PRICING */
  .pricing {
@@ -271,10 +305,13 @@ header .hero img{
    font-weight: 100;
  }
  .box .btn {
-   position:absolute;
+   position:relative;
    bottom:20px;
-   left:20px;
+   left:0;
    right:20px;
+   top: 20px;
+   
+
  }
  .small {
    font-size: 12px;
@@ -339,10 +376,9 @@ header .hero img{
 
  /* FOOTER */
  footer {
-   background-color: #34495e;
-   background-image: linear-gradient(to top, #0e8697 0%, #0e8697 50%, #34495e 50%, #34495e 100%);
-   color: #FFFFFF;
-   height: 150px;
+   background-color: #0e8697;
+   color: #ffffff;
+   height: 80px;
    position: relative;
    overflow: hidden;
    z-index: 0;
@@ -365,10 +401,10 @@ header .hero img{
    margin:0;
  }
  footer .right-footer-block {
-   background-color: transparent;
+  background-color: #0e8697;
  }
 footer .logo {
-    padding: 0;
+    padding: 0 0 -15px;
   margin: 0 auto;
   display: block;
 }
@@ -420,8 +456,6 @@ footer .logo {
    }  
    footer{
      background-color: #0e8697;
-     background-image: linear-gradient(to left,
-        #0e8697 0%, #0e8697 33.33337%, #34495e 33.33337%, #34495e 100%);
      height: 100px;
    }
   footer .one-third {
@@ -451,8 +485,7 @@ footer .logo {
 @media (min-width: 768px){
    footer{
      background-color: #0e8697;
-     background-image: linear-gradient(to left,
-        #0e8697 0%, #0e8697 33.33337%, #34495e 33.33337%, #34495E 100%);
+    
      height: 100px;
    }
    footer p, footer nav ul{
@@ -792,3 +825,28 @@ border-radius: 2px;
   .column.flow-opposite { float: right; }  
 }
 
+/* Logo in the footer right */
+
+.one-half img {
+  margin: 0 auto;
+}
+
+
+/* Arrow down */
+
+.arrow-down {
+  margin: 0 auto;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #2f2f2f;
+  font-size: 0;
+  line-height: 0;
+
+}
+
+.banner h1.darkfont {
+  color: #34495E;
+  margin-bottom: 10px;
+}
