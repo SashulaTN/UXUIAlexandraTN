@@ -38,6 +38,30 @@ width: 100%;
 position: relative;
 }
 
+
+.banner1 {
+background: rgba(49,131,138,1);
+background: -moz-linear-gradient(top, rgba(49,131,138,1) 0%, rgba(47,124,133,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(49,131,138,1)), color-stop(100%, rgba(47,124,133,1)));
+background: -webkit-linear-gradient(top, rgba(49,131,138,1) 0%, rgba(47,124,133,1) 100%);
+background: -o-linear-gradient(top, rgba(49,131,138,1) 0%, rgba(47,124,133,1) 100%);
+background: -ms-linear-gradient(top, rgba(49,131,138,1) 0%, rgba(47,124,133,1) 100%);
+background: linear-gradient(to bottom, rgba(49,131,138,1) 0%, rgba(47,124,133,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31838a', endColorstr='#2f7c85', GradientType=0 );
+width: 100%;
+position: relative;
+}
+
+ .banner1 h1 {
+   font-size:45px;
+   color:#ffffff;
+   font-weight: normal;
+   margin-top:65px;
+   padding-top: 40px;
+  
+ }
+
+
  .banner h1 {
    font-size:38px;
    color:#ffffff;
@@ -55,20 +79,6 @@ position: relative;
 
 
 
-
-.banner1 {
-width: 100%;
-position: relative;
-}
-
- .banner1 h1 {
-   font-size:45px;
-   color:#ffffff;
-   font-weight: normal;
-   margin:0 0 10px;
-   padding-top: 20px;
- }
-
   .banner1 h4 {
    font-size: 31px;
    line-height: 26px;
@@ -82,7 +92,7 @@ position: relative;
 .banner1 img {
   height:auto;
   width:100%;
-  margin-top: 40px;
+  margin-top: 0px;
   
     }
 
