@@ -482,6 +482,7 @@ footer .logo {
      width: 1170px;
    }
  }
+
 @media (min-width: 768px){
    footer{
      background-color: #0e8697;
@@ -849,4 +850,193 @@ border-radius: 2px;
 .banner h1.darkfont {
   color: #34495E;
   margin-bottom: 10px;
+}
+
+/* Al About Me */
+
+.contianer-relative { 
+  position: relative;
+ }
+
+.contianer-relative h1.textfront{
+font-size: 65px;
+ }
+
+h1.textfront {
+  position: absolute; 
+  text-align: center;
+  width: 100%;
+  height: 0%;
+  margin: auto;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 51; 
+}
+
+@media (max-width:992px) {
+h1.textfront {
+     visibility:hidden; 
+}
+  }
+
+
+
+
+
+
+
+
+/* Aligh text on About Me Page */
+
+ .row .abouttext {
+  position: relative;
+  margin: 0 auto;
+  }
+
+ .abouttext {
+  
+  }
+
+.col-sm-8 .mystory {
+ position: relative;
+}
+
+
+.features1 {
+ font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+ color:#5c5d69;
+ text-align: center;
+}
+
+.features2 {
+  padding-top: 10px;
+ font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+ color:#5c5d69;
+ text-align: left;
+}
+
+.mystory p {
+ font-family: "Open Sans", Helvetica, Arial, sans-serif;
+ font-weight: 400;
+ color:#5c5d69;
+ text-align: left;
+}
+
+.col-sm-4 .mystory {
+ position: relative;
+}
+
+.box1 {
+  padding: 2px 15px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+    min-height: 250px;
+    position: relative;
+    margin-top: 55px;
+    border-radius: 4px;
+  }
+
+.contactcontent {
+ margin: 0 auto; 
+}
+
+.mystory a.weblink{
+ color: #1997A9;
+ text-decoration: none;
+}
+
+
+.weblink1:hover {
+  color: #da4948;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #da4948;
+}
+
+.mystory img {
+  position: relative;
+  width: 100%;
+}
+
+/* Overwrite Bootsrap CSS in footer about page */
+
+.diffont {
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+ font-weight: 400;
+ color:#ffffff;
+}
+
+/* Contact Button */
+
+.contactcontent p {
+ text-align: center;
+}
+
+.contact img {
+width: 50px;
+padding: 7px;
+}
+
+
+
+
+.contact {
+ font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+ color:#5c5d69;
+ font-size: 16px;
+ line-height: 24px;
+ text-align: center;
+ padding: 5px;
+
+}
+
+
+
+.contact .btn {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    
+    background: #ef5030;
+    border: 2px solid #ef5030;
+    box-shadow: 0px 2px 0px 0px #ce3f21;
+    width: 80%;
+}
+
+.contact a.btn:hover {
+background-color: #CE3F21;
+border: 2px solid #CE3F21;
+color: #ffffff;
+}
+
+
+a.btn:hover {
+background-color: #CE3F21;
+border: 2px solid #CE3F21;
+color: #ffffff;
+}
+
+/* Navigation font - overwrite Bootstrap */
+
+.change li a {
+color: #1997A9;
+    text-decoration: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.change li a:hover {
+background-color: #CE3F21;
+color: #da4948;; 
 }
