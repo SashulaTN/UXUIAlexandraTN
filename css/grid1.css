@@ -262,6 +262,20 @@ section.benefits2 {
    margin-top: 25px;
    border-radius: 4px;
  }
+
+.boxport {
+   padding:0 15px 15px;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+   min-height: 439px;
+   position: relative;
+   margin-top: 25px;
+   margin-bottom: 100px;
+   border-radius: 4px;
+ }
+
+
+
  .box.middle {
    min-height: 485px;
    margin-top:0px;
@@ -917,6 +931,11 @@ h1.textfront {
  text-align: left;
 }
 
+.features3 {
+   padding-top: 100px;
+
+}
+
 .mystory p {
  font-family: "Open Sans", Helvetica, Arial, sans-serif;
  font-weight: 400;
@@ -1053,6 +1072,14 @@ color: #da4948;;
  position: relative;
 }
 
+
+.bannerabout img {
+  background-color: #2b8a8d;
+  margin-top: 50px;
+  width: 100%;
+ position: relative;
+}
+
 h1.resumefont {
   padding-top: 65px;
   color: #ffffff;
@@ -1103,3 +1130,4 @@ color:#5c5d69;
 font-size: 15px;
 text-align: left;
 }
+
